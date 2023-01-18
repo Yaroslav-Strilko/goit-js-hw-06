@@ -1,3 +1,21 @@
+
+const activeLink = document.querySelector("ul#categories");
+console.log("Number of categories:", activeLink.children.length);  // Number of categories: 3
+
+const activeLinkk = document.querySelectorAll(".item");
+
+activeLinkk.forEach(element => {
+    console.log("Category:", element.firstElementChild.textContent);
+    console.log("Elements:",element.lastElementChild.children.length);
+});
+
+
+
+
+
+
+
+
 // console.log(document);
 
 // const body = document.body;
@@ -15,22 +33,21 @@
 // ul#categories
 
 
-const activeLink = document.querySelector("ul#categories");
-console.log("Number of categories:", activeLink.children.length);  // Number of categories: 3
 
 
-const activeLinkAnimals = document.querySelectorAll(".item")[0];
-console.log("Category:",activeLinkAnimals.firstElementChild.textContent);
-console.log("Elements:",activeLinkAnimals.lastElementChild.children.length);
+
+// const activeLinkAnimals = document.querySelectorAll(".item")[0];
+// console.log("Category:",activeLinkAnimals.firstElementChild.textContent);
+// console.log("Elements:",activeLinkAnimals.lastElementChild.children.length);
 
 
-const activeLinkProducts = document.querySelectorAll(".item")[1];
-console.log("Category:",activeLinkProducts.firstElementChild.textContent);
-console.log("Elements:",activeLinkProducts.lastElementChild.children.length);
+// const activeLinkProducts = document.querySelectorAll(".item")[1];
+// console.log("Category:",activeLinkProducts.firstElementChild.textContent);
+// console.log("Elements:",activeLinkProducts.lastElementChild.children.length);
 
-const activeLinkTechnologies = document.querySelectorAll(".item")[2];
-console.log("Category:",activeLinkTechnologies.firstElementChild.textContent);
-console.log("Elements:", activeLinkTechnologies.lastElementChild.children.length);
+// const activeLinkTechnologies = document.querySelectorAll(".item")[2];
+// console.log("Category:",activeLinkTechnologies.firstElementChild.textContent);
+// console.log("Elements:", activeLinkTechnologies.lastElementChild.children.length);
 
 
 
