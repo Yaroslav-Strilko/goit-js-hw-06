@@ -5,7 +5,7 @@ const data = {
   email : ' ',
   password : ' ',
 }
-console.log(data)  
+// console.log(data)  
 
 form.addEventListener('submit', handleSubmit);
 
@@ -14,7 +14,7 @@ function handleSubmit(event) {
      
   const { elements: { email, password }, } = event.currentTarget;
   
-  console.log(event.currentTarget)
+  // console.log(event.currentTarget)
 
   if (email.value === '' || password.value === '') {
     return alert('Всі поля повинні бути заповнені.');
